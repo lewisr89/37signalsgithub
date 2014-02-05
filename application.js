@@ -1,53 +1,62 @@
  $(document).ready(function() {
-    	$("#basecamprollover").hide();
-    	$("#hiriserollover").hide();
-    	$("#campfirerollover").hide();
- 
 
- $("#basecamp").hover(function(){
- $("#headertext").hide();
+//Hover Over Basecamp Box
+$("#basecamp").hover(function(){
+      $("#headertext").hide();
+      $("#basecamprollover").show();
 });
-
-  $("#basecamp").mouseenter(function(){
-    $("#basecamprollover").show();
-});
-    $("#basecamp").mouseleave(function(){
+$("#basecamp").mouseleave(function(){
     $("#basecamprollover").hide();
-});
-    $("#basecamp").mouseleave(function(){
     $("#headertext").show();
 });
 
-
-  $("#highrise").hover(function(){
-  $("#headertext").hide();
+//Hover Over HiRise Box
+$("#highrise").hover(function(){
+      $("#headertext").hide();
+      $("#hiriserollover").show();
 });
-
-  $("#highrise").mouseenter(function(){
-    $("#hiriserollover").show();
-});
-    $("#highrise").mouseleave(function(){
+$("#highrise").mouseleave(function(){
     $("#hiriserollover").hide();
-});
-    $("#highrise").mouseleave(function(){
     $("#headertext").show();
 });
 
-
-  $("#campfire").hover(function(){
-  $("#headertext").hide();
+//Hover Over Campfire Box
+$("#campfire").hover(function(){
+      $("#headertext").hide();
+      $("#campfirerollover").show();
 });
-
-  $("#campfire").mouseenter(function(){
-    $("#campfirerollover").show();
-});
-    $("#campfire").mouseleave(function(){
+$("#campfire").mouseleave(function(){
     $("#campfirerollover").hide();
-});
-    $("#campfire").mouseleave(function(){
     $("#headertext").show();
 });
 
- });
+//Hover Over Basecamp Box Arrow Appear
+$("#basecamp").hover(function(){
+      $("#leftarrow1").show();
+});
+
+$("#basecamp").mouseleave(function(){
+    $("#leftarrow1").hide();
+  });
+
+//Hover Over Hirise Box Arrow Appear
+$("#highrise").hover(function(){
+      $("#leftarrow2").show();
+});
+
+$("#highrise").mouseleave(function(){
+    $("#leftarrow2").hide();
+  });
+
+//Hover Over Campfire Box Arrow Appear
+$("#campfire").hover(function(){
+      $("#rightarrow").show();
+});
+
+$("#campfire").mouseleave(function(){
+    $("#rightarrow").hide();
+  });
 
 
+});
+  
