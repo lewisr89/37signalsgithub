@@ -139,31 +139,29 @@ height:130px;
 	display:none;
 }
 
-#leftarrow1, #leftarrow2, #rightarrow {
-	display: none;
-}
 
 #leftarrow1{
-	display:none;
+	display:inline-block;
 	position:absolute;
-	top:270px;
-	left:260px;
+	top:-10px;
+	left:150px;
 	z-index: 1;
 }
 #leftarrow2{
-	display:none;
+	display:inline-block;
 	position:absolute;
-	top:270px;
-	left:500px;
+	top:-10px;
+	left:150px;
 	z-index: 1;
 }
 #rightarrow{
-	display:none;
+	display:inline-block;
 	position:absolute;
-	top:270px;
-	left:700px;
+	top:-10px;
+	left:-30px;
 	z-index: 1
 }
+.hidden{display:none;}
 
 #basecamprollover h1{
 	position: relative;
